@@ -6,6 +6,6 @@ app.use(express.static(staticpath));
 app.get("/" , (req , resp) => {
     resp.send("Hello...");
 });
-app.listen(8000 , () => {
-    console.log("listening on port 8000");
+app.listen(process.env.PORT || 8000 , () => {
+    console.log(`listening..`);
 });
