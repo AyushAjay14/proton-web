@@ -14,9 +14,9 @@
     
 }
 .logo img{
-    margin-top: 2rem;
-    width: 6rem;
-    height: 4rem;
+    margin-top: 1rem;
+    width: 9rem;
+    height: 7rem;
 }
 #mymenu{
     height: 100vh;
@@ -197,15 +197,15 @@ h1{
     }
     .logo img{
         margin-top: 1rem;
-        width: 6rem;
-        height: 4rem;
+        width: 8rem;
+    height: 6rem;
     }
     .menu{
         top: 13px;
         right: 2rem;
     }
     .box{
-        width: 100%;
+        width: 97%;
         margin-top: 7rem;
         margin-left: 0rem;
         text-align: center;
@@ -215,7 +215,8 @@ h1{
     .about , #offer{
         margin-top: 4rem;
         text-align: center;
-        display: block;
+        align-items: center;
+        flex-direction: column;
         height: auto;
         margin-bottom: 3rem;
     }
@@ -226,15 +227,15 @@ h1{
         width: 100%;
     }
     .rightcol{
-        width: 100%;
+        width: 97%;
         text-align: center;
         padding: 0 ;
         margin:0;
     }
     .features{
-        display: block;
+        flex-direction: column;
         margin:0;
-        text-align: center;
+        align-items: center;
     }
     .courses{
         height: auto;
