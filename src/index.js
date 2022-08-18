@@ -3,7 +3,6 @@ const path = require("path");
 const mongoose = require('mongoose');
 const app = express();
 
-// app.use(express.bodyParser());
 app.use(express.json());
 const staticpath = path.join(__dirname , "../public");
 app.use(express.static(staticpath));
